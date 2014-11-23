@@ -19,14 +19,6 @@
 	        android:layout_centerHorizontal="true"
 	        android:text="@string/textToCypher" />
 	
-	    <Button
-	        android:id="@+id/btnCifrar"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_below="@+id/etTexto"
-	        android:layout_centerHorizontal="true"
-	        android:text="@string/cifrar_descifrar" />
-	
 	    <EditText
 	        android:id="@+id/etTexto"
 	        android:inputType="text"
@@ -40,10 +32,10 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_alignLeft="@+id/etTexto"
-	        android:layout_below="@+id/btnCifrar"
 	        android:layout_alignStart="@+id/etTexto"
-	        android:textIsSelectable="true"
-    		android:text="tvROT1" />
+	        android:layout_below="@+id/etTexto"
+	        android:text="tvROT1"
+	        android:textIsSelectable="true" />
 	    
 	    <TextView
 	        android:id="@+id/tvROT2"
