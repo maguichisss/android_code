@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="0dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/textToCypher" />
+	
+	    <EditText
+	        android:id="@+id/etTexto"
+	        android:inputType="text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/textView1"
+	        android:layout_centerHorizontal="true" />
+	
+	    <TextView
+	        android:id="@+id/tvROT1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:layout_below="@+id/etTexto"
+	        android:text="tvROT1"
+	        android:textIsSelectable="true" />
+	    
+	    <TextView
+	        android:id="@+id/tvROT2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_below="@+id/tvROT1"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT2" />
+	    <TextView
+	        android:id="@+id/tvROT3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT2"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT3" />
+	    <TextView
+	        android:id="@+id/tvROT4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT3"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT4" />
+	    <TextView
+	        android:id="@+id/tvROT5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT4"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT5" />
+	    <TextView
+	        android:id="@+id/tvROT6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT5"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT6" />
+	    <TextView
+	        android:id="@+id/tvROT7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT6"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT7" />
+	    <TextView
+	        android:id="@+id/tvROT8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT7"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT8" />	
+	    <TextView
+	        android:id="@+id/tvROT9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT8"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT9" />
+		<TextView
+	        android:id="@+id/tvROT10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT9"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT10" />
+		<TextView
+	        android:id="@+id/tvROT11"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT10"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT11" />
+		<TextView
+	        android:id="@+id/tvROT12"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT11"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT12" />
+		<TextView
+	        android:id="@+id/tvROT13"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT12"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT13" />
+		<TextView
+	        android:id="@+id/tvROT14"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT13"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT14" />
+		<TextView
+	        android:id="@+id/tvROT15"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT14"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT15" />
+		<TextView
+	        android:id="@+id/tvROT16"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT15"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT16" />
+		<TextView
+	        android:id="@+id/tvROT17"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT16"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT17" />
+		<TextView
+	        android:id="@+id/tvROT18"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT17"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT18" />
+		<TextView
+	        android:id="@+id/tvROT19"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT18"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT19" />
+		<TextView
+	        android:id="@+id/tvROT20"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT19"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT20" />
+		<TextView
+	        android:id="@+id/tvROT21"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT20"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT21" />
+		<TextView
+	        android:id="@+id/tvROT22"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT21"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT22" />
+		<TextView
+	        android:id="@+id/tvROT23"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT22"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT23" />
+		<TextView
+	        android:id="@+id/tvROT24"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT23"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT24" />
+		<TextView
+	        android:id="@+id/tvROT25"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT24"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT25" />
+		<TextView
+	        android:id="@+id/tvROT26"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvROT25"
+	        android:layout_alignLeft="@+id/etTexto"
+	        android:layout_alignStart="@+id/etTexto"
+	        android:textIsSelectable="true"
+    		android:text="tvROT26" />
+        
+        
+        
+    </RelativeLayout>
+
+</ScrollView>
