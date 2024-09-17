@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cifrado Vigenere</string>
+    <string name="textToCypher">Texto a cifrar</string>
+    <string name="cypherKey">Llave para cifrar</string>
+    <string name="cifrar">Cifrar</string>
+    <string name="cypheredText">Texto cifrado</string>
+    <string name="hintText">Escribe algo</string>
+    <string name="hintKey">Escribe la llave</string>
+	<string name="hintResult">Texto cifrado</string>
+    <string name="action_settings">Settings</string>
+	
+</resources>

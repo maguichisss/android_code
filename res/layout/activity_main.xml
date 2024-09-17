@@ -1,0 +1,103 @@
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.com.dinosoft.cifradovigenere.MainActivity"
+        android:id="@+id/scrollView1">
+
+   <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.com.dinosoft.cifradovigenere.MainActivity" >
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvTittle"
+        android:text="@string/textToCypher" />
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:hint="@string/hintText"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvText"
+        android:layout_alignStart="@+id/tvText"
+        android:layout_below="@+id/etText"
+        android:text="@string/cypherKey" />
+
+    <EditText
+        android:id="@+id/etKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etText"
+        android:layout_alignStart="@+id/etText"
+        android:hint="@string/hintKey"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:layout_below="@+id/tvKey"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvCifrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnCifrar"
+        android:text="@string/cypheredText" />
+
+    <Button
+        android:id="@+id/btnCifrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKey"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cifrar" />
+
+    <EditText
+        android:id="@+id/etCifrado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvCifrado"
+        android:layout_alignStart="@+id/tvCifrado"
+        android:layout_below="@+id/tvCifrado"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:ems="10"
+        android:hint="@string/hintResult" />
+
+</RelativeLayout>
+        
+    </ScrollView>
+
